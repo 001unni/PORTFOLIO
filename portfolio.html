@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Portfolio</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body bgcolor='#8C34A1'>
+    <main class='main'>
+      <nav class='navBar'>
+        <h1>GOKUL C Portfolio</h1>
+        <div class='navigationMenu'>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contactForm">Let's Connect!</a>
+        <div>
+      </nav>
+      <section class='heroSection'>
+        <img 
+        class='profileImage'
+        src='C:\Users\hp\Desktop\New folder (4)/gokul photo 50kb.jpg'>
+        <div class='herosectionDetails'>
+          <h1>GOKUL C</h1>
+          <h2>Full-Stack Developer </h2>
+        </div>
+      </section>
+      <section class='aboutMe' id='aboutMe'>
+        <h1>What I Do.....</h1>
+        <p>Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators. Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators. Some basic details can be added hear regarding what you are realy known for. What you have done in your past job experience. Why do  you think you are doing well and more compatible with respect to other users and creators.</p>
+      </section>
+      <section class='skillsAndProjects'>
+        <div class='skills' id='skills'>
+          <h1 class='cardHeading'>Skills</h1>
+          <img title='HTML' src='file:///C:/Users/hp/Desktop/New%20folder%20(4)/HTML5_logo_and_wordmark.svg'>
+          <img title='CSS' src='C:\Users\hp\Desktop\New folder (4)/CSS3_logo_and_wordmark.svg'>
+          <img title='Javascript' src='file:///C:/Users/hp/Desktop/New%20folder%20(4)/Java_Logo.svg'>
+          <img title='Node.JS' src='file:///C:/Users/hp/Desktop/New%20folder%20(4)/Node.js_logo.svg'>
+          <img title='React' src='file:///C:/Users/hp/Desktop/New%20folder%20(4)/React-icon.svg'>
+          <img title='MongoDB' src='file:///C:/Users/hp/Desktop/New%20folder%20(4)/MongoDB_Logo.svg'>
+          <img title='Firebase' src='file:///C:/Users/hp/Desktop/New%20folder%20(4)/Firebase_Logo.svg'>
+          <img title='Redux' src='C:\Users\hp\Desktop\New folder (4)/Redux_Logo.png'>
+        </div>
+        <div class='projects' id='projects'>
+          <h1 class='cardHeading'>Projects</h1>
+          <div class='projectContainer'>
+            <img src='C:\Users\hp\Desktop\New folder (4)/pexels-lukas-669615.jpg'>
+            <div class='projectDescription'>
+              <h4>Project Name</h4>
+              <p>Some details of the project.Some details of the project.Some details of the project.</p>
+            </div>
+          </div>
+          <div class='projectContainer'>
+            <img src='C:\Users\hp\Desktop\New folder (4)/pexels-startup-stock-photos-7096.jpg'>
+            <div class='projectDescription'>
+              <h4>Project Name</h4>
+              <p>Some details of the project</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Let's Connect!</h2><br>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br/>
+          <input type='text' id='name' placeholder='Full Name'/>
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br/>
+          <input type='text' id='email' placeholder='Email'/>
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br/>
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
